@@ -54,14 +54,14 @@ To assess and showcase proficiency in Shopify’s Liquid templating language by 
   - If cart total < ₹500 → `Spend ₹500 more to get free shipping!`
   - If cart total ≥ ₹500 Suggest product from `You’ve unlocked free shipping!`
 
-Files Submitted
-product-card.liquid
+Files Submitted:
+`product-card.liquid`
 
-collection.liquid
+`collection.liquid`
 
-index.liquid
+`index.liquid`
 
-cart.liquid
+`cart.liquid`
 
 
 
