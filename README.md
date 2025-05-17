@@ -21,13 +21,48 @@ To assess and showcase proficiency in Shopify’s Liquid templating language by 
   - `Limited Stock` → If inventory < 5
   - Displays both if both conditions are true
 
-**Logic Used:**  
-```liquid
-{% if product.price < 500 %}
-  <span class="badge">Budget Pick</span>
-{% endif %}
-{% if product.variants.first.inventory_quantity < 5 %}
-  <span class="badge">Limited Stock</span>
-{% endif %}
+### Task 2: Custom Collection Filter
+ **File:** `collection.liquid`
+
+- Adds a dropdown filter for custom product tags:
+  - `best-seller`
+  - `new-arrival` → If inventory < 5
+  - `discounted`
+- Filters the product list based on the selected tag
+- Does not interfere with pagination
+
+### Task 3: Personalized Greeting (Homepage)
+ **File:** `index.liquid`
+
+- Displays a greeting based on the current time:
+  - Before 12 PM → `Good Morning, Shopper!`
+  - Between 12 PM – 6 PM → `Good Afternoon, Shopper!`
+  - After 6 PM → `Good Evening, Shopper!`
+
+### Task 4: Custom Upsell Section (Cart Page)
+ **File:** `cart.liquid`
+
+
+ - Displays a dynamic upsell product suggestion:
+  - If cart total < ₹1000 → Suggest product from `Accessories`
+  - If cart total ≥ ₹1000 → Suggest product from `Premium`
+
+### Bonus Task: Buy More, Save More
+ **File:** `cart.liquid`
+
+ - Displays a dynamic shipping message:
+  - If cart total < ₹500 → `Spend ₹500 more to get free shipping!`
+  - If cart total ≥ ₹500 Suggest product from `You’ve unlocked free shipping!`
+
+Files Submitted
+product-card.liquid
+
+collection.liquid
+
+index.liquid
+
+cart.liquid
+
+
 
 
