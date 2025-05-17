@@ -55,6 +55,7 @@ To assess and showcase proficiency in Shopify’s Liquid templating language by 
   - If cart total ≥ ₹500 Suggest product from `You’ve unlocked free shipping!`
 
 Files Submitted:
+
 `product-card.liquid`
 
 `collection.liquid`
@@ -62,6 +63,13 @@ Files Submitted:
 `index.liquid`
 
 `cart.liquid`
+
+## Notes
+
+- **Theme Used:** Dawn  
+- **Editor:** Shopify Theme Editor / Free Development Store  
+- **Third-Party Services:** None (No third-party apps or paid services used)  
+- **Technology:** All logic implemented using Shopify's built-in **Liquid** templating language
 
 
 
